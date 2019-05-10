@@ -5099,18 +5099,6 @@ $as_echo "#define HAVE_PTHREAD_BARRIERS 1" >>confdefs.h
 
 fi
 
-for ac_header in libaio.h
-do :
-  ac_fn_c_check_header_mongrel "$LINENO" "libaio.h" "ac_cv_header_libaio_h" "$ac_includes_default"
-if test "x$ac_cv_header_libaio_h" = xyes; then :
-  cat >>confdefs.h <<_ACEOF
-#define HAVE_LIBAIO_H 1
-_ACEOF
-
-fi
-
-done
-
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing io_setup" >&5
 $as_echo_n "checking for library containing io_setup... " >&6; }
 if ${ac_cv_search_io_setup+:} false; then :
