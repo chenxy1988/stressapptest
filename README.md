@@ -5,7 +5,7 @@ It tries to maximize randomized traffic to memory from processor and I/O, with t
   (Exported from code.google.com/p/stressapptest)
 
 Discussion group: https://groups.google.com/d/forum/stressapptest-discuss
-
+E
 
 ## Usage
 
